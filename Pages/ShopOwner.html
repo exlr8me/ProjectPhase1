@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/Bstyle.css">
+    <title>Shop Owner</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="/images/logo1.jpeg" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li>
+                    <a href="#">GG</a>
+                </li>
+                <li>
+                    <a href="#">gg</a>
+                </li>
+                <li>
+                    <a href="#">goodgame</a>
+                </li>
+            </ul>
+        </nav>
+        <a href="#" class="endB"><button>contact Us</button> </a>
+    </header>
+
+    <div class="form">
+        <div class="info">
+            <form class="firstf" action="/">
+                <div class="banner">
+                    <img src="/images/shops.jpg" alt="" id="image">
+                </div>
+                <div class="item">
+                    <label for="location">Shop Location<span>*</span></label>
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Riyadh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <a href="https://www.whatismyip-address.com/divi-discount/"></a>
+                        </div>
+                        <style>
+                            .mapouter {
+                                position: relative;
+                                text-align: right;
+                                height: 400px;
+                                width: 400px;
+                            }
+                            
+                            .gmap_canvas {
+                                overflow: hidden;
+                                background: none!important;
+                                height: 400px;
+                                width: 400px;
+                            }
+                        </style>
+                    </div>
+                </div>
+                <div class="item">
+                    <label for="name">Shop Name<span>*</span></label>
+                    <input id="name" type="text" name="name" required/>
+                </div>
+                <div class="item">
+                    <label for="phone">contact<span>*</span></label>
+                    <input id="phone" type="text" placeholder="05XXXXXXXX" name="phone" required/>
+                </div>
+                <div class="item">
+                    <label for="img">Upload Shop Images:</label>
+                    <input type="file" id="img" name="img" accept="image/*">
+                    <button type="submit" href="/">Upload Image</button>
+                </div>
+                <div class="type">
+                    <div class="item">
+                        <label for="type">Type <span>*</span></label>
+                        <br>
+                        <select id="type" name="type">
+                    <option selected value="" disabled selected></option>
+                    <option value="">SuperMarket</option>
+                    <option value="">Pharmacy</option>
+                    <option value="">Bags</option>
+                </select>
+                    </div>
+                </div>
+                <div class="item">
+                    <label for="guide">Shop Offers</label>
+                    <textarea id="guide" rows="5"></textarea>
+                </div>
+                <div class="btn-block">
+                    <button type="submit" href="/">Add Shop</button>
+                    <button type="submit" href="/">Modify Shop</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+
+</html>
